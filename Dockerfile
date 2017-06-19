@@ -1,4 +1,4 @@
-FROM openjdk:8u121-jre-alpine # needed until this bug is fixed https://bugs.alpinelinux.org/issues/7372
+FROM openjdk:8u121-jre-alpine
 
 ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
